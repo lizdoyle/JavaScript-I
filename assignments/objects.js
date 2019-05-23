@@ -119,7 +119,9 @@ child:  {
 
 }
 
-
+console.log(parent.speak(), parent.name);
+console.log(parent.child.speak(), parent.child.name);
+console.log(parent.child.grandchild.speak(), parent.child.grandchild.name);
 
 // Log the parent object's name
 
